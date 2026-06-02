@@ -2,9 +2,6 @@
 
 **How do annual members and casual riders use Cyclistic bikes differently?**
 
-[![Tableau Dashboard](https://public.tableau.com/app/profile/sharifa.mubarak/viz/Cyclisticabike-sharecompany/2025Report)
-*(Click the LINK to view the interactive dashboard)*
-
 ## 📌 Project Overview
 
 This project answers Cyclistic's business question by analyzing **5.4 million bike rides** in Chicago during 2025.
