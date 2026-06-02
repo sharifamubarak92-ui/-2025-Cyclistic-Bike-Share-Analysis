@@ -34,7 +34,7 @@ This project answers Cyclistic's business question by analyzing **5.4 million bi
 
 ## 🔗 Project Links
 
-- **📊 Tableau Dashboard:** [View Report](https://public.tableau.com/app/profile/sharifa.mubarak/viz/Cyclistic2025MembersvsCasualRiders/2025Report)
+- **📊 Tableau Dashboard:** [View Report](https://public.tableau.com/app/profile/sharifa.mubarak/viz/Cyclisticabike-sharecompany/2025Report)
 
 ## 👩‍💻 About the Analyst
 
