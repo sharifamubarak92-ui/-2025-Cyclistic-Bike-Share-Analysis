@@ -1,0 +1,117 @@
+# Cyclistic Bike-Share Analysis: Final Report
+## (6 Deliverables)
+
+**Project:** Cyclistic Bike-Share Analysis (2025)  
+**Analyst:** Sharifa Mubarak  
+**Date:** June 2025  
+
+---
+
+## 📌 Deliverable 1: Business Task Statement
+
+**Question:** *"How do annual members and casual riders use Cyclistic bikes differently?"*
+
+**Objective:** Identify behavioral differences to design marketing strategies that convert casual riders into annual members.
+
+---
+
+## 📂 Deliverable 2: Data Sources
+
+| Attribute | Details |
+|-----------|---------|
+| **Source** | Divvy bike-share data (Chicago) |
+| **Period** | January – December 2025 |
+| **Raw Rides** | 5,552,994 |
+| **Cleaned Rides** | 5,400,008 |
+| **Key Columns** | `ride_id`, `started_at`, `member_casual`, `rideable_type` |
+
+---
+
+## 🧹 Deliverable 3: Data Cleaning
+
+| Step | Action |
+|------|--------|
+| 1 | Load & merge 12 CSV files |
+| 2 | Convert dates to datetime |
+| 3 | Create `ride_length`, `day_of_week`, `month`, `start_hour` |
+| 4 | Remove rides < 1 min or > 24 hours (152,986 removed) |
+| 5 | Create `season` and `is_weekend` columns |
+
+**Result:** 97.24% of data retained (5,400,008 rides)
+
+---
+
+## 📊 Deliverable 4: Analysis Summary
+
+| Metric | Casual | Member |
+|--------|--------|--------|
+| Total Rides | 1,915,806 | 3,484,202 |
+| Avg Duration | 19.9 min | 12.2 min |
+| Median Duration | 11.9 min | 8.7 min |
+| Electric Bike | 65.1% | 63.4% |
+| Peak Day | Saturday (21%) | Thursday (16%) |
+| Peak Hour | 5 PM (9.6%) | 5 PM (11%) & 8 AM (7%) |
+| Peak Season | Summer (47%) | Summer (36%) |
+| Top Station | Navy Pier (26,939) | Kingsbury St & Kinzie St (30,889) |
+
+---
+
+## 📈 Deliverable 5: Key Findings
+
+| # | Finding |
+|---|---------|
+| 1 | Members take **82% more rides** than casuals |
+| 2 | Casual rides are **63% longer** |
+| 3 | Both prefer **electric bikes** (~65%) |
+| 4 | Members peak on **weekdays morning rush** |
+| 5 | Casuals peak on **weekends + afternoons** |
+| 6 | Summer = 47% of casual rides (vs 36% for members) |
+| 7 | Casuals start at **tourist spots** (Navy Pier) |
+| 8 | Members start at **business districts** |
+
+---
+
+## 💡 Deliverable 6: Recommendations
+
+### 1. "Summer Unlimited" Campaign 🎯
+- **Why:** 47% of casual rides occur in summer
+- **When:** Launch in May
+- **How:** 20% discount + 1 week free trial
+- **Expected Impact:** 15% conversion
+
+### 2. Afternoon Rush Offer ⏰
+- **Why:** 4-6 PM is casual peak
+- **When:** Daily, 4-6 PM
+- **How:** In-app "50% off first month"
+- **Expected Impact:** 10% conversion
+
+### 3. Free Electric Bike Trial 🚲
+- **Why:** 65% of casuals use electric bikes
+- **How:** 7-day free membership trial
+- **Target:** Casuals who used electric 3+ times
+- **Expected Impact:** 20% conversion
+
+---
+
+## 🔮 Future Recommendations
+
+- **Better Data:** Ask "Work or Leisure?" at sign-up
+- **Weekend Pass:** Launch weekend-only membership
+- **Smart Partnerships:** Collaborate with Navy Pier hotels
+- **Real-Time Tracking:** Compare current vs last year
+
+---
+
+## ✅ Conclusion
+
+| Dimension | Casual | Member |
+|-----------|--------|--------|
+| Purpose | Leisure / Tourism | Commuting |
+| Timing | Weekends + Afternoon | Weekdays + Morning |
+| Season | Summer peak | Year-round |
+| Locations | Tourist spots | Business districts |
+
+---
+
+**Analyst:** Sharifa Mubarak  
+**Project:** Google Data Analytics Capstone – Cyclistic Case Study
