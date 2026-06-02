@@ -2,8 +2,8 @@
 
 **How do annual members and casual riders use Cyclistic bikes differently?**
 
-[![Tableau Dashboard](images/dashboard_preview.png)](https://public.tableau.com/app/profile/sharifa.mubarak/viz/Cyclistic2025MembersvsCasualRiders/2025Report)
-*(Click the image to view the interactive dashboard)*
+[![Tableau Dashboard](https://public.tableau.com/app/profile/sharifa.mubarak/viz/Cyclisticabike-sharecompany/2025Report)
+*(Click the LINK to view the interactive dashboard)*
 
 ## 📌 Project Overview
 
